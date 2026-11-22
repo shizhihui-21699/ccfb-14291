@@ -16,3 +16,10 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+# Runtime artifacts from authd/authctl (keys must never be committed).
+auth.db
+auth.db-*
+*.db-shm
+*.db-wal
+keys.json
+recovery-mail.log
